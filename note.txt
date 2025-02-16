@@ -1,0 +1,16 @@
+- file kompilasi akan disimpan di folder src
+
+- secara default semua file akan di compile semua
+  untuk mengubah file apa saja yang ingin di compile tambahkan exclude atau include di file tsconfig.json
+  "include": ["src/**/*"],
+  "exclude": ["tests/**/*"],
+
+#TYPE DATA PRIMITIF
+number, boolean, string
+
+        const name: String = "Doni Darmawan";
+        const balance: Number = 1000000;
+        const isVip: Boolean = true;
+
+npx tsc --watch // untuk memantau kompilasi secara live
+
